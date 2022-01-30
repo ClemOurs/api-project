@@ -12,7 +12,7 @@ My APIs :
 
 My Website : 
 
-[my link](www.dealos.tk)
+[my link](https://www.dealos.tk)
 
 ## What you can do on the website
 #
