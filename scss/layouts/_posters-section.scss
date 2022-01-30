@@ -2,3 +2,10 @@
     @include flex-wrap;
     @include center-total;
 }
+.film {
+    cursor: pointer;
+    &:hover {
+        transition: ease 0.3s;
+        transform: scale(1.03);
+    }
+}

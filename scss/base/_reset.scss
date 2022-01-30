@@ -10,8 +10,16 @@ body {
 }
 
 button {
-    color: #000;
+    color: var(--yellow);
+    background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+    border: none;
     width: fit-content;
     cursor: pointer;
     padding: 0.5rem;
+}
+#title {
+    text-align: center;
+    font-family: "StarWars";
+    color: var(--yellow);
 }

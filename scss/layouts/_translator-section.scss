@@ -1,17 +1,9 @@
 #translator {
     h1 {
-        color: #FFF;
+        color: var(--yellow);
     }
-    display: flex;
+    @include flex-column;
     @include center-total;
     padding: 1rem;
     gap: 20px;
-    form {
-        input {
-            color: #000;
-        }
-        width: fit-content;
-        @include flex-column;
-        gap: 20px;
-    }
 }

@@ -19,10 +19,19 @@ body {
 }
 
 button {
-  color: #000;
+  color: var(--yellow);
+  background-color: #202020;
+  border-radius: 5px;
+  border: none;
   width: fit-content;
   cursor: pointer;
   padding: 0.5rem;
+}
+
+#title {
+  text-align: center;
+  font-family: "StarWars";
+  color: var(--yellow);
 }
 
 .card {
@@ -82,32 +91,33 @@ button {
   align-items: center;
 }
 
+.film {
+  cursor: pointer;
+}
+.film:hover {
+  transition: ease 0.3s;
+  transform: scale(1.03);
+}
+
 .infos {
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin: 0 auto;
   width: 80%;
+  color: var(--yellow);
 }
 
 #translator {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1rem;
   gap: 20px;
 }
 #translator h1 {
-  color: #FFF;
-}
-#translator form {
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-#translator form input {
-  color: #000;
+  color: var(--yellow);
 }
 
 /*# sourceMappingURL=style.css.map */
