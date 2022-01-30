@@ -1,0 +1,12 @@
+#content {
+    @include flex-wrap;
+    @include center-total;
+    padding: 1rem;
+    gap: 25px;
+}
+#planets {
+    @include flex-column;
+}
+#showMore {
+    margin: 0 auto;
+}

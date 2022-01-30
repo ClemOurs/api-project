@@ -1,0 +1,6 @@
+.infos {
+    @include flex-column;
+    gap: 20px;
+    margin: 0 auto;
+    width: 80%;
+}

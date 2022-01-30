@@ -1,0 +1,17 @@
+#translator {
+    h1 {
+        color: #FFF;
+    }
+    display: flex;
+    @include center-total;
+    padding: 1rem;
+    gap: 20px;
+    form {
+        input {
+            color: #000;
+        }
+        width: fit-content;
+        @include flex-column;
+        gap: 20px;
+    }
+}

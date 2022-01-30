@@ -1,0 +1,21 @@
+.card {
+    font-family: "StarWars";
+    width: 300px;
+    height: fit-content;
+    cursor: pointer;
+    padding: 1rem;
+    background-color: rgba(233, 233, 233, 0.747);
+    border-radius: 30px;
+
+    &:hover {
+        transition: ease 0.5s;
+        transform: scale(1.03);
+        background-color: rgba(233, 233, 233);
+    }
+
+    img {
+        width: 240px;
+        height: max-content;
+        border-radius: 50px;
+    }
+}

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Pathway+Gothic+One&display=swap");
+@font-face {
+  font-family: "StarWars";
+  src: url("/fonts/Starjedi.ttf") format("truetype");
+}
+:root {
+  --yellow: #ffe81f;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Pathway Gothic One";
+}
+
+body {
+  background-color: #000;
+}
+
+button {
+  color: #000;
+  width: fit-content;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.card {
+  font-family: "StarWars";
+  width: 300px;
+  height: fit-content;
+  cursor: pointer;
+  padding: 1rem;
+  background-color: rgba(233, 233, 233, 0.747);
+  border-radius: 30px;
+}
+.card:hover {
+  transition: ease 0.5s;
+  transform: scale(1.03);
+  background-color: #e9e9e9;
+}
+.card img {
+  width: 240px;
+  height: max-content;
+  border-radius: 50px;
+}
+
+.film {
+  padding: 1rem;
+}
+.film img {
+  width: fit-content;
+  height: 350px;
+}
+
+.none {
+  display: none !important;
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 25px;
+}
+
+#planets {
+  display: flex;
+  flex-direction: column;
+}
+
+#showMore {
+  margin: 0 auto;
+}
+
+#films {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+#translator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 20px;
+}
+#translator h1 {
+  color: #FFF;
+}
+#translator form {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#translator form input {
+  color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */
